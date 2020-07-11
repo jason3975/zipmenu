@@ -3,27 +3,52 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		960D33CA24B2719A00F79966 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D33C924B2719A00F79966 /* ViewController.swift */; };
+		960D33CC24B27E4000F79966 /* UIShadowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D33CB24B27E4000F79966 /* UIShadowExtension.swift */; };
+		960D33F524B2856500F79966 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 960D33F424B2856500F79966 /* Montserrat-Regular.ttf */; };
 		9614D2D52474871B0090D9F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9614D2D42474871B0090D9F4 /* AppDelegate.swift */; };
 		9614D2D72474871B0090D9F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9614D2D62474871B0090D9F4 /* SceneDelegate.swift */; };
-		9614D2D92474871B0090D9F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9614D2D82474871B0090D9F4 /* ViewController.swift */; };
 		9614D2DC2474871B0090D9F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9614D2DA2474871B0090D9F4 /* Main.storyboard */; };
 		9614D2DE2474871C0090D9F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9614D2DD2474871C0090D9F4 /* Assets.xcassets */; };
 		9614D2E12474871C0090D9F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9614D2DF2474871C0090D9F4 /* LaunchScreen.storyboard */; };
+		963493CB24B24AD100C94ADB /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 963493CA24B24AD100C94ADB /* gradient.png */; };
+		963493CF24B26F0E00C94ADB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963493CE24B26F0E00C94ADB /* SignInViewController.swift */; };
+		96514B802493392E00E1229E /* Untitled design (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 96514B7F2493392E00E1229E /* Untitled design (1).png */; };
+		96632C5B24B97F41003314CE /* LoginViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96632C5924B97F41003314CE /* LoginViews.storyboard */; };
+		9669A8A024B7B20B0075B492 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9669A89F24B7B20B0075B492 /* IQKeyboardManagerSwift */; };
+		9669A8A224B7C8F70075B492 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9669A8A124B7C8F70075B492 /* ForgotPasswordViewController.swift */; };
+		969A883424B5304400041CF5 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 969A883324B5304400041CF5 /* Montserrat-SemiBold.ttf */; };
+		96ABEFDC24B45A1400ECD9B6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ABEFDB24B45A1400ECD9B6 /* Extension.swift */; };
+		96E3515E24B3101800CE47D9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E3515D24B3101800CE47D9 /* CustomButton.swift */; };
+		98F9CF8AAAF93D1A08B2D62F /* Pods_ZipMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D5D24F1933DF8D325774DF /* Pods_ZipMenu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9614D2D12474871B0090D9F4 /* Restaurant Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Restaurant Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C491040E6369B712488A18 /* Pods-ZipMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZipMenu.release.xcconfig"; path = "Target Support Files/Pods-ZipMenu/Pods-ZipMenu.release.xcconfig"; sourceTree = "<group>"; };
+		960D33C924B2719A00F79966 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		960D33CB24B27E4000F79966 /* UIShadowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIShadowExtension.swift; sourceTree = "<group>"; };
+		960D33F424B2856500F79966 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		9614D2D12474871B0090D9F4 /* ZipMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZipMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9614D2D42474871B0090D9F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9614D2D62474871B0090D9F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9614D2D82474871B0090D9F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9614D2DB2474871B0090D9F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9614D2DD2474871C0090D9F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9614D2E02474871C0090D9F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9614D2E22474871C0090D9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963493CA24B24AD100C94ADB /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient.png; sourceTree = "<group>"; };
+		963493CE24B26F0E00C94ADB /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		96514B7F2493392E00E1229E /* Untitled design (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled design (1).png"; path = "../../../Downloads/Untitled design (1).png"; sourceTree = "<group>"; };
+		96632C5A24B97F41003314CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginViews.storyboard; sourceTree = "<group>"; };
+		9669A8A124B7C8F70075B492 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		969A883324B5304400041CF5 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		96ABEFDB24B45A1400ECD9B6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		96E3515D24B3101800CE47D9 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		B3D5D24F1933DF8D325774DF /* Pods_ZipMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZipMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F7AAEF67CFF0355D8EDA98 /* Pods-ZipMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZipMenu.debug.xcconfig"; path = "Target Support Files/Pods-ZipMenu/Pods-ZipMenu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +56,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F9CF8AAAF93D1A08B2D62F /* Pods_ZipMenu.framework in Frameworks */,
+				9669A8A024B7B20B0075B492 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FC9EACC3D41C290BB87BF69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3D5D24F1933DF8D325774DF /* Pods_ZipMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66C885335E75D9A32541FEFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1F7AAEF67CFF0355D8EDA98 /* Pods-ZipMenu.debug.xcconfig */,
+				44C491040E6369B712488A18 /* Pods-ZipMenu.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		960D33CD24B2844A00F79966 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				960D33F424B2856500F79966 /* Montserrat-Regular.ttf */,
+				969A883324B5304400041CF5 /* Montserrat-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		9614D2C82474871B0090D9F4 = {
 			isa = PBXGroup;
 			children = (
 				9614D2D32474871B0090D9F4 /* Restaurant Application */,
 				9614D2D22474871B0090D9F4 /* Products */,
+				66C885335E75D9A32541FEFC /* Pods */,
+				4FC9EACC3D41C290BB87BF69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		9614D2D22474871B0090D9F4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9614D2D12474871B0090D9F4 /* Restaurant Application.app */,
+				9614D2D12474871B0090D9F4 /* ZipMenu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,24 +111,58 @@
 		9614D2D32474871B0090D9F4 /* Restaurant Application */ = {
 			isa = PBXGroup;
 			children = (
+				96632C5824B97EFF003314CE /* StoryBoards */,
+				960D33CD24B2844A00F79966 /* Fonts */,
 				9614D2D42474871B0090D9F4 /* AppDelegate.swift */,
 				9614D2D62474871B0090D9F4 /* SceneDelegate.swift */,
-				9614D2D82474871B0090D9F4 /* ViewController.swift */,
-				9614D2DA2474871B0090D9F4 /* Main.storyboard */,
+				96E3515F24B315E600CE47D9 /* Custom Files */,
+				963493D024B26F1F00C94ADB /* View Controllers */,
 				9614D2DD2474871C0090D9F4 /* Assets.xcassets */,
+				960D33CB24B27E4000F79966 /* UIShadowExtension.swift */,
+				963493CA24B24AD100C94ADB /* gradient.png */,
+				96514B7F2493392E00E1229E /* Untitled design (1).png */,
 				9614D2DF2474871C0090D9F4 /* LaunchScreen.storyboard */,
 				9614D2E22474871C0090D9F4 /* Info.plist */,
 			);
 			path = "Restaurant Application";
 			sourceTree = "<group>";
 		};
+		963493D024B26F1F00C94ADB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				963493CE24B26F0E00C94ADB /* SignInViewController.swift */,
+				960D33C924B2719A00F79966 /* ViewController.swift */,
+				9669A8A124B7C8F70075B492 /* ForgotPasswordViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		96632C5824B97EFF003314CE /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				96632C5924B97F41003314CE /* LoginViews.storyboard */,
+				9614D2DA2474871B0090D9F4 /* Main.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		96E3515F24B315E600CE47D9 /* Custom Files */ = {
+			isa = PBXGroup;
+			children = (
+				96ABEFDB24B45A1400ECD9B6 /* Extension.swift */,
+				96E3515D24B3101800CE47D9 /* CustomButton.swift */,
+			);
+			path = "Custom Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9614D2D02474871B0090D9F4 /* Restaurant Application */ = {
+		9614D2D02474871B0090D9F4 /* ZipMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9614D2E52474871C0090D9F4 /* Build configuration list for PBXNativeTarget "Restaurant Application" */;
+			buildConfigurationList = 9614D2E52474871C0090D9F4 /* Build configuration list for PBXNativeTarget "ZipMenu" */;
 			buildPhases = (
+				57E1CDF626F448EB62BEB485 /* [CP] Check Pods Manifest.lock */,
 				9614D2CD2474871B0090D9F4 /* Sources */,
 				9614D2CE2474871B0090D9F4 /* Frameworks */,
 				9614D2CF2474871B0090D9F4 /* Resources */,
@@ -82,9 +171,12 @@
 			);
 			dependencies = (
 			);
-			name = "Restaurant Application";
+			name = ZipMenu;
+			packageProductDependencies = (
+				9669A89F24B7B20B0075B492 /* IQKeyboardManagerSwift */,
+			);
 			productName = "Restaurant Application";
-			productReference = 9614D2D12474871B0090D9F4 /* Restaurant Application.app */;
+			productReference = 9614D2D12474871B0090D9F4 /* ZipMenu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +194,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9614D2CC2474871B0090D9F4 /* Build configuration list for PBXProject "Restaurant Application" */;
+			buildConfigurationList = 9614D2CC2474871B0090D9F4 /* Build configuration list for PBXProject "ZipMenu" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,11 +203,14 @@
 				Base,
 			);
 			mainGroup = 9614D2C82474871B0090D9F4;
+			packageReferences = (
+				9669A89E24B7B20B0075B492 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 9614D2D22474871B0090D9F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9614D2D02474871B0090D9F4 /* Restaurant Application */,
+				9614D2D02474871B0090D9F4 /* ZipMenu */,
 			);
 		};
 /* End PBXProject section */
@@ -125,20 +220,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				960D33F524B2856500F79966 /* Montserrat-Regular.ttf in Resources */,
 				9614D2E12474871C0090D9F4 /* LaunchScreen.storyboard in Resources */,
 				9614D2DE2474871C0090D9F4 /* Assets.xcassets in Resources */,
+				96632C5B24B97F41003314CE /* LoginViews.storyboard in Resources */,
 				9614D2DC2474871B0090D9F4 /* Main.storyboard in Resources */,
+				963493CB24B24AD100C94ADB /* gradient.png in Resources */,
+				969A883424B5304400041CF5 /* Montserrat-SemiBold.ttf in Resources */,
+				96514B802493392E00E1229E /* Untitled design (1).png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		57E1CDF626F448EB62BEB485 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZipMenu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9614D2CD2474871B0090D9F4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9614D2D92474871B0090D9F4 /* ViewController.swift in Sources */,
+				9669A8A224B7C8F70075B492 /* ForgotPasswordViewController.swift in Sources */,
+				960D33CA24B2719A00F79966 /* ViewController.swift in Sources */,
+				963493CF24B26F0E00C94ADB /* SignInViewController.swift in Sources */,
+				96ABEFDC24B45A1400ECD9B6 /* Extension.swift in Sources */,
+				96E3515E24B3101800CE47D9 /* CustomButton.swift in Sources */,
+				960D33CC24B27E4000F79966 /* UIShadowExtension.swift in Sources */,
 				9614D2D52474871B0090D9F4 /* AppDelegate.swift in Sources */,
 				9614D2D72474871B0090D9F4 /* SceneDelegate.swift in Sources */,
 			);
@@ -161,6 +291,14 @@
 				9614D2E02474871C0090D9F4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		96632C5924B97F41003314CE /* LoginViews.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96632C5A24B97F41003314CE /* Base */,
+			);
+			name = LoginViews.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,6 +420,7 @@
 		};
 		9614D2E62474871C0090D9F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F7AAEF67CFF0355D8EDA98 /* Pods-ZipMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +439,7 @@
 		};
 		9614D2E72474871C0090D9F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44C491040E6369B712488A18 /* Pods-ZipMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -319,7 +459,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9614D2CC2474871B0090D9F4 /* Build configuration list for PBXProject "Restaurant Application" */ = {
+		9614D2CC2474871B0090D9F4 /* Build configuration list for PBXProject "ZipMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9614D2E32474871C0090D9F4 /* Debug */,
@@ -328,7 +468,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9614D2E52474871C0090D9F4 /* Build configuration list for PBXNativeTarget "Restaurant Application" */ = {
+		9614D2E52474871C0090D9F4 /* Build configuration list for PBXNativeTarget "ZipMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9614D2E62474871C0090D9F4 /* Debug */,
@@ -338,6 +478,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9669A89E24B7B20B0075B492 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9669A89F24B7B20B0075B492 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9669A89E24B7B20B0075B492 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9614D2C92474871B0090D9F4 /* Project object */;
 }
