@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/jason/Desktop/Restaurant Application/ZipMenu.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>
