@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LCV-5S-joG">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -18,7 +18,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RJJ-5F-nJX">
                                 <rect key="frame" x="0.0" y="45" width="414" height="806"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled design (1).png" translatesAutoresizingMaskIntoConstraints="NO" id="hZm-vd-pXD">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled design (1)" translatesAutoresizingMaskIntoConstraints="NO" id="hZm-vd-pXD">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="591"/>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="tJS-dF-1kR">
@@ -89,7 +89,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="29" y="140"/>
+            <point key="canvasLocation" x="29" y="99"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="g9K-wq-dyy">
@@ -105,7 +105,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p2a-0c-qPd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2562" y="162"/>
+            <point key="canvasLocation" x="3332" y="155"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="kBy-Md-1Wo">
@@ -121,7 +121,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4ck-So-wOT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3330" y="161"/>
+            <point key="canvasLocation" x="2472" y="153"/>
         </scene>
         <!--Item-->
         <scene sceneID="xP4-O3-om1">
@@ -189,6 +189,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Untitled design (1).png" width="375" height="375"/>
+        <image name="Untitled design (1)" width="500" height="500"/>
     </resources>
 </document>
