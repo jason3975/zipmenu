@@ -25,6 +25,7 @@
 		96E3515E24B3101800CE47D9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E3515D24B3101800CE47D9 /* CustomButton.swift */; };
 		98F9CF8AAAF93D1A08B2D62F /* Pods_ZipMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D5D24F1933DF8D325774DF /* Pods_ZipMenu.framework */; };
 		C78FA75524C8F31D00F4F7F6 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78FA75424C8F31D00F4F7F6 /* test.swift */; };
+		C78FA75724C8F3E900F4F7F6 /* Untitled_design_1.png in Resources */ = {isa = PBXBuildFile; fileRef = C78FA75624C8F3E800F4F7F6 /* Untitled_design_1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		96E3515D24B3101800CE47D9 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		B3D5D24F1933DF8D325774DF /* Pods_ZipMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZipMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C78FA75424C8F31D00F4F7F6 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		C78FA75624C8F3E800F4F7F6 /* Untitled_design_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled_design_1.png; sourceTree = "<group>"; };
 		E1F7AAEF67CFF0355D8EDA98 /* Pods-ZipMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZipMenu.debug.xcconfig"; path = "Target Support Files/Pods-ZipMenu/Pods-ZipMenu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +120,9 @@
 				96E3515F24B315E600CE47D9 /* Custom Files */,
 				963493D024B26F1F00C94ADB /* View Controllers */,
 				9614D2DD2474871C0090D9F4 /* Assets.xcassets */,
+				C78FA75624C8F3E800F4F7F6 /* Untitled_design_1.png */,
+				960D33CB24B27E4000F79966 /* UIShadowExtension.swift */,
+				963493CA24B24AD100C94ADB /* gradient.png */,
 				9614D2DF2474871C0090D9F4 /* LaunchScreen.storyboard */,
 				9614D2E22474871C0090D9F4 /* Info.plist */,
 			);
@@ -222,6 +227,7 @@
 			files = (
 				960D33F524B2856500F79966 /* Montserrat-Regular.ttf in Resources */,
 				9614D2E12474871C0090D9F4 /* LaunchScreen.storyboard in Resources */,
+				C78FA75724C8F3E900F4F7F6 /* Untitled_design_1.png in Resources */,
 				9614D2DE2474871C0090D9F4 /* Assets.xcassets in Resources */,
 				96632C5B24B97F41003314CE /* LoginViews.storyboard in Resources */,
 				9614D2DC2474871B0090D9F4 /* Main.storyboard in Resources */,
