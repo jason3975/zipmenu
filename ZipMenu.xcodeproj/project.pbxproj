@@ -26,6 +26,7 @@
 		96ABEFDC24B45A1400ECD9B6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ABEFDB24B45A1400ECD9B6 /* Extension.swift */; };
 		96E3515E24B3101800CE47D9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E3515D24B3101800CE47D9 /* CustomButton.swift */; };
 		98F9CF8AAAF93D1A08B2D62F /* Pods_ZipMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D5D24F1933DF8D325774DF /* Pods_ZipMenu.framework */; };
+		C78FA75524C8F31D00F4F7F6 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78FA75424C8F31D00F4F7F6 /* test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		96ABEFDB24B45A1400ECD9B6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		96E3515D24B3101800CE47D9 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		B3D5D24F1933DF8D325774DF /* Pods_ZipMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZipMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78FA75424C8F31D00F4F7F6 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		E1F7AAEF67CFF0355D8EDA98 /* Pods-ZipMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZipMenu.debug.xcconfig"; path = "Target Support Files/Pods-ZipMenu/Pods-ZipMenu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -154,6 +156,7 @@
 			children = (
 				96ABEFDB24B45A1400ECD9B6 /* Extension.swift */,
 				96E3515D24B3101800CE47D9 /* CustomButton.swift */,
+				C78FA75424C8F31D00F4F7F6 /* test.swift */,
 			);
 			path = "Custom Files";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				9669A8A224B7C8F70075B492 /* ForgotPasswordViewController.swift in Sources */,
 				960D33CA24B2719A00F79966 /* LocationViewController.swift in Sources */,
 				963493CF24B26F0E00C94ADB /* SignInViewController.swift in Sources */,
+				C78FA75524C8F31D00F4F7F6 /* test.swift in Sources */,
 				96ABEFDC24B45A1400ECD9B6 /* Extension.swift in Sources */,
 				96E3515E24B3101800CE47D9 /* CustomButton.swift in Sources */,
 				960D33CC24B27E4000F79966 /* UIShadowExtension.swift in Sources */,
