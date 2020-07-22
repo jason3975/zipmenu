@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		960D33CA24B2719A00F79966 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D33C924B2719A00F79966 /* ViewController.swift */; };
+		960D33CA24B2719A00F79966 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D33C924B2719A00F79966 /* LocationViewController.swift */; };
 		960D33CC24B27E4000F79966 /* UIShadowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D33CB24B27E4000F79966 /* UIShadowExtension.swift */; };
 		960D33F524B2856500F79966 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 960D33F424B2856500F79966 /* Montserrat-Regular.ttf */; };
 		9614D2D52474871B0090D9F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9614D2D42474871B0090D9F4 /* AppDelegate.swift */; };
@@ -19,6 +19,7 @@
 		963493CF24B26F0E00C94ADB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963493CE24B26F0E00C94ADB /* SignInViewController.swift */; };
 		96514B802493392E00E1229E /* Untitled design (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 96514B7F2493392E00E1229E /* Untitled design (1).png */; };
 		96632C5B24B97F41003314CE /* LoginViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96632C5924B97F41003314CE /* LoginViews.storyboard */; };
+		96632C5D24BC0A4F003314CE /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96632C5C24BC0A4F003314CE /* LocationService.swift */; };
 		9669A8A024B7B20B0075B492 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9669A89F24B7B20B0075B492 /* IQKeyboardManagerSwift */; };
 		9669A8A224B7C8F70075B492 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9669A8A124B7C8F70075B492 /* ForgotPasswordViewController.swift */; };
 		969A883424B5304400041CF5 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 969A883324B5304400041CF5 /* Montserrat-SemiBold.ttf */; };
@@ -29,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		44C491040E6369B712488A18 /* Pods-ZipMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZipMenu.release.xcconfig"; path = "Target Support Files/Pods-ZipMenu/Pods-ZipMenu.release.xcconfig"; sourceTree = "<group>"; };
-		960D33C924B2719A00F79966 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		960D33C924B2719A00F79966 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		960D33CB24B27E4000F79966 /* UIShadowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIShadowExtension.swift; sourceTree = "<group>"; };
 		960D33F424B2856500F79966 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		9614D2D12474871B0090D9F4 /* ZipMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZipMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +44,7 @@
 		963493CE24B26F0E00C94ADB /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		96514B7F2493392E00E1229E /* Untitled design (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Untitled design (1).png"; path = "../../../Downloads/Untitled design (1).png"; sourceTree = "<group>"; };
 		96632C5A24B97F41003314CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginViews.storyboard; sourceTree = "<group>"; };
+		96632C5C24BC0A4F003314CE /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		9669A8A124B7C8F70075B492 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		969A883324B5304400041CF5 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		96ABEFDB24B45A1400ECD9B6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		9614D2D32474871B0090D9F4 /* Restaurant Application */ = {
 			isa = PBXGroup;
 			children = (
+				96632C5C24BC0A4F003314CE /* LocationService.swift */,
 				96632C5824B97EFF003314CE /* StoryBoards */,
 				960D33CD24B2844A00F79966 /* Fonts */,
 				9614D2D42474871B0090D9F4 /* AppDelegate.swift */,
@@ -131,7 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				963493CE24B26F0E00C94ADB /* SignInViewController.swift */,
-				960D33C924B2719A00F79966 /* ViewController.swift */,
+				960D33C924B2719A00F79966 /* LocationViewController.swift */,
 				9669A8A124B7C8F70075B492 /* ForgotPasswordViewController.swift */,
 			);
 			path = "View Controllers";
@@ -264,12 +267,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9669A8A224B7C8F70075B492 /* ForgotPasswordViewController.swift in Sources */,
-				960D33CA24B2719A00F79966 /* ViewController.swift in Sources */,
+				960D33CA24B2719A00F79966 /* LocationViewController.swift in Sources */,
 				963493CF24B26F0E00C94ADB /* SignInViewController.swift in Sources */,
 				96ABEFDC24B45A1400ECD9B6 /* Extension.swift in Sources */,
 				96E3515E24B3101800CE47D9 /* CustomButton.swift in Sources */,
 				960D33CC24B27E4000F79966 /* UIShadowExtension.swift in Sources */,
 				9614D2D52474871B0090D9F4 /* AppDelegate.swift in Sources */,
+				96632C5D24BC0A4F003314CE /* LocationService.swift in Sources */,
 				9614D2D72474871B0090D9F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
