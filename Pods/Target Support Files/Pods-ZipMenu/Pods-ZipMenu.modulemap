@@ -1,0 +1,6 @@
+framework module Pods_ZipMenu {
+  umbrella header "Pods-ZipMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}
