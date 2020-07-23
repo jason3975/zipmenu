@@ -83,7 +83,19 @@ class SignInViewController: UIViewController {
     }
     
     @IBAction func signInButtonPressed(_ sender: CustomButton) {
-        signInButton.shake()
+        
+        let storyboard = UIStoryboard(name: "LoginViews", bundle: nil)
+        let mainTabBarController = storyboard.instantiateViewController(identifier: "MainTabBarController")
+        
+        // This is to get the SceneDelegate object from your view controller
+        // then call the change root view controller function to change to main tab bar
+        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
+        
+    }
+    
+    func navigateToMainView()
+    {
+        
     }
 }
 
