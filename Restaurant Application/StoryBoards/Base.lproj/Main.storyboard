@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LCV-5S-joG">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -12,23 +12,23 @@
             <objects>
                 <viewController title="Location Permission" id="BYZ-38-t0r" customClass="LocationViewController" customModule="ZipMenu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RJJ-5F-nJX">
-                                <rect key="frame" x="0.0" y="45" width="414" height="806"/>
+                                <rect key="frame" x="0.0" y="45" width="414" height="752"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Untitled design (1)" translatesAutoresizingMaskIntoConstraints="NO" id="hZm-vd-pXD">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="636.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="594"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We Need Your Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQv-4b-IaC">
-                                        <rect key="frame" x="71.5" y="636.5" width="271" height="69.5"/>
+                                        <rect key="frame" x="71.5" y="594" width="271" height="58"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="200" verticalCompressionResistancePriority="1000" text="Your location is used to find local restaurants nearby" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mG8-jO-xda">
-                                        <rect key="frame" x="70" y="706" width="274.5" height="100"/>
+                                        <rect key="frame" x="70" y="652" width="274.5" height="100"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="7NU-JQ-KlC"/>
                                         </constraints>
@@ -50,10 +50,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="CTc-Cj-v2Q"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="29" y="99"/>
+            <point key="canvasLocation" x="1774" y="-325"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="g9K-wq-dyy">
@@ -125,7 +126,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Bwy-XM-eWC">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LCV-5S-joG" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LCV-5S-joG" customClass="NavigationController" customModule="ZipMenu" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="Sub-kQ-nVu">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -135,11 +136,12 @@
                     <nil name="viewControllers"/>
                     <connections>
                         <segue destination="XV4-mE-EPA" kind="relationship" relationship="rootViewController" id="Ujo-fM-iF3"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="LocationPopup" id="ex8-L2-NRU"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z9Z-L7-ayt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="988" y="102"/>
+            <point key="canvasLocation" x="935" y="90"/>
         </scene>
         <!--LoginViews-->
         <scene sceneID="W8x-da-QqZ">
