@@ -14,7 +14,7 @@ class MainTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        mainTabBar?.tintColor = UIColor.white
+        mainTabBar?.barTintColor = UIColor.white
         tabBarItem.title = ""
 
         setTabBarItems()
@@ -22,10 +22,16 @@ class MainTabBarController: UITabBarController {
     }
     func setTabBarItems()
     {
-        let myTabBarItem1 = (self.tabBar.items?[0])! as UITabBarItem
-        myTabBarItem1.image = UIImage(named: "Unselected")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
-        myTabBarItem1.selectedImage = UIImage(named: "Selected ")?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
-        myTabBarItem1.title = ""
-        myTabBarItem1.imageInsets = UIEdgeInsets(top: 6, left: 0, bottom: -6, right: 0)
+        let tabBarItem1 = (self.tabBar.items?[0])! as UITabBarItem
+        tabBarItem1.image = #imageLiteral(resourceName: "HomeIcon-1")
+        tabBarItem1.title = ""
+        
+        let tabBarItem2 = (self.tabBar.items?[1])! as UITabBarItem
+        tabBarItem2.image = #imageLiteral(resourceName: "OrderButton")
+        tabBarItem2.title = ""
+        
+        let tabBarItem3 = (self.tabBar.items?[2])! as UITabBarItem
+        tabBarItem3.image = #imageLiteral(resourceName: "ProfileIcon")
+        tabBarItem3.title = ""
     }
 }
