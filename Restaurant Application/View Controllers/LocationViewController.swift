@@ -17,10 +17,13 @@ class LocationViewController: UIViewController {
         super.viewDidLoad()
 
         locationManager.delegate = self
+        
+        
+        
+    }
+    @IBAction func askButton(_ sender: Any) {
         locationManager.requestWhenInUseAuthorization()
-        // locationManager.requestLocation()
-        
-        
+        locationManager.requestLocation()
     }
     
 }
