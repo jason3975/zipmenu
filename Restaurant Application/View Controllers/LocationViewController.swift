@@ -9,7 +9,7 @@
 import UIKit
 import CoreLocation
 
-class LocationViewController: UIViewController, CLLocationManagerDelegate {
+class LocationViewController: UIViewController {
 
     let locationManager = CLLocationManager()
     
@@ -18,9 +18,24 @@ class LocationViewController: UIViewController, CLLocationManagerDelegate {
 
         locationManager.delegate = self
         locationManager.requestWhenInUseAuthorization()
-        locationManager.requestLocation()
+        // locationManager.requestLocation()
         
         
     }
     
+}
+
+//MARK: - Location Manager Delegate
+
+extension LocationViewController: CLLocationManagerDelegate {
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        if let location = locations.last {
+            locationManager.stopUpdatingLocation()
+            print(location)
+        }
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
+        print(error)
+    }
 }

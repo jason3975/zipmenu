@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Find Local Restaurants in Your Area</string>
+	<string>Your location is used to find local restaurants nearby</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Find Local Restaurants in Your Area</string>
+	<string>Your location is used to find local restaurants nearby</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Montserrat-Regular.ttf</string>

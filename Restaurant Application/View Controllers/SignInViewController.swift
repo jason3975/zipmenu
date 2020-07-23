@@ -26,15 +26,9 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var LastNameStack: UIStackView!
     @IBOutlet weak var confirmStack: UIStackView!
     
-    let locationManager = CLLocationManager()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        locationManager.delegate = self
-        locationManager.requestWhenInUseAuthorization()
-        locationManager.requestLocation()
-
         self.hideKeyboardWhenTappedAround() 
     }
     
@@ -94,17 +88,4 @@ class SignInViewController: UIViewController {
 }
 
 
-//MARK: - Location Manager Delegate
 
-extension SignInViewController: CLLocationManagerDelegate {
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        if let location = locations.last {
-            locationManager.stopUpdatingLocation()
-            print(location)
-        }
-    }
-    
-    func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        print(error)
-    }
-}
