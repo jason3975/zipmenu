@@ -15,11 +15,19 @@ class NavigationController: UINavigationController {
         super.viewDidLoad()
         
         if CLLocationManager.locationServicesEnabled() {
-            //currently enabled
+            switch CLLocationManager.authorizationStatus() {
+                case .notDetermined, .restricted, .denied:
+                    performSegue(withIdentifier: "LocationPopup", sender: self)
+                case .authorizedAlways, .authorizedWhenInUse:
+                    print("Hey")
+                @unknown default:
+                break
             }
-            else {
-                performSegue(withIdentifier: "LocationPopup", sender: self)
+            } else {
+                print("Else")
+                //performSegue(withIdentifier: "LocationPopup", sender: self)
         }
+        
         
     }
 }
