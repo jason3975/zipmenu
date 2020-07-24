@@ -351,11 +351,14 @@
                     </view>
                     <navigationItem key="navigationItem" id="zAq-ga-unO"/>
                     <connections>
-                        <outlet property="LastNameStack" destination="56P-88-1TP" id="pPC-2e-KZN"/>
-                        <outlet property="NameStack" destination="jFm-Ux-Q4c" id="vGY-cB-MTp"/>
-                        <outlet property="confirmStack" destination="7jg-xW-mCh" id="nvu-g8-lOO"/>
+                        <outlet property="LastNameStack" destination="56P-88-1TP" id="rn4-mr-OBS"/>
+                        <outlet property="NameStack" destination="jFm-Ux-Q4c" id="bxs-q2-qaV"/>
+                        <outlet property="confirmPasswordTextfield" destination="lh1-jf-nZg" id="t7N-L4-AAq"/>
+                        <outlet property="confirmStack" destination="7jg-xW-mCh" id="dDw-yL-30F"/>
                         <outlet property="emailTextfield" destination="YD3-It-2P9" id="bdq-kE-hSx"/>
+                        <outlet property="firstNameTextfield" destination="eJe-ge-02H" id="1sW-bm-BDJ"/>
                         <outlet property="forgotPasswordButton" destination="i4m-dh-VET" id="5YB-nQ-Swd"/>
+                        <outlet property="lastNameTextfield" destination="ajg-1y-EMf" id="obS-JZ-Rfa"/>
                         <outlet property="loginButton" destination="KyO-Rx-rwK" id="IaM-6r-V0B"/>
                         <outlet property="loginLine" destination="QBw-cR-60g" id="dIr-xS-LYZ"/>
                         <outlet property="passwordTextfield" destination="TRa-OE-cWF" id="bmh-x9-KOp"/>
