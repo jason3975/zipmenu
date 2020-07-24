@@ -9,6 +9,7 @@
 import Foundation
 import UIKit
 import CoreLocation
+import FirebaseAuth
 
 class SignInViewController: UIViewController {
     
@@ -19,6 +20,9 @@ class SignInViewController: UIViewController {
     @IBOutlet weak var signUpLine: UIView!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var loginLine: UIView!
+    @IBOutlet weak var emailTextfield: UITextField!
+    @IBOutlet weak var passwordTextfield: UITextField!
+    
     
     @IBOutlet weak var forgotPasswordButton: UIButton!
     //SIGNUP PAGE STACK VIEWS
@@ -84,13 +88,21 @@ class SignInViewController: UIViewController {
     
     @IBAction func signInButtonPressed(_ sender: CustomButton) {
         
-        let storyboard = UIStoryboard(name: "LoginViews", bundle: nil)
-        let mainTabBarController = storyboard.instantiateViewController(identifier: "MainTabBarController")
         
-        // This is to get the SceneDelegate object from your view controller
-        // then call the change root view controller function to change to main tab bar
-        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
-        
+        if let email = emailTextfield.text, let password = passwordTextfield.text {
+            Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
+                if let e = error {
+                    // TODO: Notify users of incorrect credentials
+                    print(e)
+                } else {
+                    let storyboard = UIStoryboard(name: "LoginViews", bundle: nil)
+                    let mainTabBarController = storyboard.instantiateViewController(identifier: "MainTabBarController")
+                    // This is to get the SceneDelegate object from your view controller
+                    // then call the change root view controller function to change to main tab bar
+                    (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
+                }
+            }
+        }
     }
     
     func navigateToMainView()
