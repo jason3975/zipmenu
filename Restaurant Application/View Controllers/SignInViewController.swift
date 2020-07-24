@@ -99,6 +99,8 @@ class SignInViewController: UIViewController {
                 Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
                     if let e = error {
                         // TODO: Let user know there was a sign in error
+                        self.signInButton.shake()
+                        AlertPopup.showBasicAlert(on: self, with: "Sign In Error", message: e.localizedDescription)
                         print(e)
                     } else {
                         self.navigateToMainView()
@@ -115,6 +117,8 @@ class SignInViewController: UIViewController {
                     Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
                         if let e = error {
                             // TODO: Notify user account creation failed
+                            self.signInButton.shake()
+                            AlertPopup.showBasicAlert(on: self, with: "Sign Up Error", message: e.localizedDescription)
                             print(e)
                         } else {
                             // Account creation succeeded

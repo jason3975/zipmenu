@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		96047ACA24CB7B950085202C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96047AC924CB7B950085202C /* GoogleService-Info.plist */; };
+		96047ACC24CB7CF50085202C /* AlertPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96047ACB24CB7CF50085202C /* AlertPopup.swift */; };
 		9604FF5424C9F7AC0033314E /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9604FF5324C9F7AC0033314E /* MainTabBarController.swift */; };
 		960D33CA24B2719A00F79966 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D33C924B2719A00F79966 /* LocationViewController.swift */; };
 		960D33F524B2856500F79966 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 960D33F424B2856500F79966 /* Montserrat-Regular.ttf */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		44C491040E6369B712488A18 /* Pods-ZipMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZipMenu.release.xcconfig"; path = "Target Support Files/Pods-ZipMenu/Pods-ZipMenu.release.xcconfig"; sourceTree = "<group>"; };
 		96047AC924CB7B950085202C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		96047ACB24CB7CF50085202C /* AlertPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPopup.swift; sourceTree = "<group>"; };
 		9604FF5324C9F7AC0033314E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		960D33C924B2719A00F79966 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		960D33F424B2856500F79966 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 		96E3515F24B315E600CE47D9 /* Custom Files */ = {
 			isa = PBXGroup;
 			children = (
+				96047ACB24CB7CF50085202C /* AlertPopup.swift */,
 				96632C5C24BC0A4F003314CE /* LocationService.swift */,
 				96ABEFDB24B45A1400ECD9B6 /* Extension.swift */,
 				96E3515D24B3101800CE47D9 /* CustomButton.swift */,
@@ -301,6 +304,7 @@
 				C78FA75524C8F31D00F4F7F6 /* test.swift in Sources */,
 				96ABEFDC24B45A1400ECD9B6 /* Extension.swift in Sources */,
 				96E3515E24B3101800CE47D9 /* CustomButton.swift in Sources */,
+				96047ACC24CB7CF50085202C /* AlertPopup.swift in Sources */,
 				9614D2D52474871B0090D9F4 /* AppDelegate.swift in Sources */,
 				9693F47E24C959C100A0DEAF /* NavigationController.swift in Sources */,
 				96632C5D24BC0A4F003314CE /* LocationService.swift in Sources */,
