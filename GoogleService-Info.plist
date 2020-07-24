@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>650376498457-fegn5q6k5r03qq6ucg2tnopg2mg5ch57.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.650376498457-fegn5q6k5r03qq6ucg2tnopg2mg5ch57</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDg8Fl-9RQs7Yv644IXljYChmkRc8TBVNA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>650376498457</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.JasonJimenez.Restaurant-Application</string>
+	<key>PROJECT_ID</key>
+	<string>zipmenu-84a36</string>
+	<key>STORAGE_BUCKET</key>
+	<string>zipmenu-84a36.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:650376498457:ios:88f715c9ea2c9139d74988</string>
+	<key>DATABASE_URL</key>
+	<string>https://zipmenu-84a36.firebaseio.com</string>
+</dict>
+</plist>

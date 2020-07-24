@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96047ACA24CB7B950085202C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96047AC924CB7B950085202C /* GoogleService-Info.plist */; };
 		9604FF5424C9F7AC0033314E /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9604FF5324C9F7AC0033314E /* MainTabBarController.swift */; };
 		960D33CA24B2719A00F79966 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960D33C924B2719A00F79966 /* LocationViewController.swift */; };
 		960D33F524B2856500F79966 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 960D33F424B2856500F79966 /* Montserrat-Regular.ttf */; };
@@ -18,7 +19,7 @@
 		963493CF24B26F0E00C94ADB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963493CE24B26F0E00C94ADB /* SignInViewController.swift */; };
 		96632C5B24B97F41003314CE /* LoginViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96632C5924B97F41003314CE /* LoginViews.storyboard */; };
 		96632C5D24BC0A4F003314CE /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96632C5C24BC0A4F003314CE /* LocationService.swift */; };
-		9669A8A024B7B20B0075B492 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 9669A89F24B7B20B0075B492 /* SwiftPackageProductDependency */; };
+		9669A8A024B7B20B0075B492 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9669A89F24B7B20B0075B492 /* IQKeyboardManagerSwift */; };
 		9669A8A224B7C8F70075B492 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9669A8A124B7C8F70075B492 /* ForgotPasswordViewController.swift */; };
 		9693F47E24C959C100A0DEAF /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9693F47D24C959C100A0DEAF /* NavigationController.swift */; };
 		969A883424B5304400041CF5 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 969A883324B5304400041CF5 /* Montserrat-SemiBold.ttf */; };
@@ -32,6 +33,7 @@
 
 /* Begin PBXFileReference section */
 		44C491040E6369B712488A18 /* Pods-ZipMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZipMenu.release.xcconfig"; path = "Target Support Files/Pods-ZipMenu/Pods-ZipMenu.release.xcconfig"; sourceTree = "<group>"; };
+		96047AC924CB7B950085202C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9604FF5324C9F7AC0033314E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		960D33C924B2719A00F79966 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		960D33F424B2856500F79966 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
@@ -63,7 +65,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98F9CF8AAAF93D1A08B2D62F /* Pods_ZipMenu.framework in Frameworks */,
-				9669A8A024B7B20B0075B492 /* BuildFile in Frameworks */,
+				9669A8A024B7B20B0075B492 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +102,7 @@
 		9614D2C82474871B0090D9F4 = {
 			isa = PBXGroup;
 			children = (
+				96047AC924CB7B950085202C /* GoogleService-Info.plist */,
 				9614D2D32474871B0090D9F4 /* Restaurant Application */,
 				9614D2D22474871B0090D9F4 /* Products */,
 				66C885335E75D9A32541FEFC /* Pods */,
@@ -183,7 +186,7 @@
 			);
 			name = ZipMenu;
 			packageProductDependencies = (
-				9669A89F24B7B20B0075B492 /* SwiftPackageProductDependency */,
+				9669A89F24B7B20B0075B492 /* IQKeyboardManagerSwift */,
 			);
 			productName = "Restaurant Application";
 			productReference = 9614D2D12474871B0090D9F4 /* ZipMenu.app */;
@@ -214,7 +217,7 @@
 			);
 			mainGroup = 9614D2C82474871B0090D9F4;
 			packageReferences = (
-				9669A89E24B7B20B0075B492 /* RemoteSwiftPackageReference */,
+				9669A89E24B7B20B0075B492 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = 9614D2D22474871B0090D9F4 /* Products */;
 			projectDirPath = "";
@@ -232,6 +235,7 @@
 			files = (
 				960D33F524B2856500F79966 /* Montserrat-Regular.ttf in Resources */,
 				C745876424CA5E8F0088F20F /* GoogleService-Info.plist in Resources */,
+				96047ACA24CB7B950085202C /* GoogleService-Info.plist in Resources */,
 				9614D2E12474871C0090D9F4 /* LaunchScreen.storyboard in Resources */,
 				9614D2DE2474871C0090D9F4 /* Assets.xcassets in Resources */,
 				96AB174124CA259B00AD9157 /* MainTabBar.storyboard in Resources */,
@@ -510,7 +514,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9669A89E24B7B20B0075B492 /* RemoteSwiftPackageReference */ = {
+		9669A89E24B7B20B0075B492 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
 			requirement = {
@@ -521,9 +525,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9669A89F24B7B20B0075B492 /* SwiftPackageProductDependency */ = {
+		9669A89F24B7B20B0075B492 /* IQKeyboardManagerSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9669A89E24B7B20B0075B492 /* RemoteSwiftPackageReference */;
+			package = 9669A89E24B7B20B0075B492 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
 			productName = IQKeyboardManagerSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
