@@ -83,6 +83,7 @@
                                         <state key="normal" title="Send Reset Link"/>
                                         <connections>
                                             <action selector="closeView:" destination="xzJ-19-zTJ" eventType="touchUpInside" id="8IO-mY-5wC"/>
+                                            <action selector="sendResetPressed:" destination="xzJ-19-zTJ" eventType="touchUpInside" id="RMG-hS-p5K"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -98,6 +99,9 @@
                         <viewLayoutGuide key="safeArea" id="CH7-ha-ZHl"/>
                     </view>
                     <navigationItem key="navigationItem" id="8vj-jG-v6G"/>
+                    <connections>
+                        <outlet property="emailTextfield" destination="gqS-k8-bLC" id="fTa-rE-A0d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="emV-Tq-eqY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
