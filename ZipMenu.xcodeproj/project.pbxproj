@@ -26,6 +26,10 @@
 		969A883424B5304400041CF5 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 969A883324B5304400041CF5 /* Montserrat-SemiBold.ttf */; };
 		96AB174124CA259B00AD9157 /* MainTabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96AB174024CA259B00AD9157 /* MainTabBar.storyboard */; };
 		96ABEFDC24B45A1400ECD9B6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ABEFDB24B45A1400ECD9B6 /* Extension.swift */; };
+		96ACE55124CBFEF8000F83CB /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96ACE55024CBFEF8000F83CB /* HomeView.storyboard */; };
+		96ACE55324CC0025000F83CB /* OrderView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96ACE55224CC0025000F83CB /* OrderView.storyboard */; };
+		96ACE55524CC008E000F83CB /* ProfileView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96ACE55424CC008E000F83CB /* ProfileView.storyboard */; };
+		96ACE55724CC014A000F83CB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACE55624CC014A000F83CB /* HomeViewController.swift */; };
 		96E3515E24B3101800CE47D9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E3515D24B3101800CE47D9 /* CustomButton.swift */; };
 		98F9CF8AAAF93D1A08B2D62F /* Pods_ZipMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D5D24F1933DF8D325774DF /* Pods_ZipMenu.framework */; };
 		C745876424CA5E8F0088F20F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C745876324CA5E8F0088F20F /* GoogleService-Info.plist */; };
@@ -54,6 +58,10 @@
 		969A883324B5304400041CF5 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		96AB174024CA259B00AD9157 /* MainTabBar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainTabBar.storyboard; sourceTree = "<group>"; };
 		96ABEFDB24B45A1400ECD9B6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		96ACE55024CBFEF8000F83CB /* HomeView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
+		96ACE55224CC0025000F83CB /* OrderView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OrderView.storyboard; sourceTree = "<group>"; };
+		96ACE55424CC008E000F83CB /* ProfileView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProfileView.storyboard; sourceTree = "<group>"; };
+		96ACE55624CC014A000F83CB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		96E3515D24B3101800CE47D9 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		B3D5D24F1933DF8D325774DF /* Pods_ZipMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZipMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C745876324CA5E8F0088F20F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -139,6 +147,7 @@
 		963493D024B26F1F00C94ADB /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				96ACE55624CC014A000F83CB /* HomeViewController.swift */,
 				9604FF5324C9F7AC0033314E /* MainTabBarController.swift */,
 				963493CE24B26F0E00C94ADB /* SignInViewController.swift */,
 				960D33C924B2719A00F79966 /* LocationViewController.swift */,
@@ -152,6 +161,9 @@
 			isa = PBXGroup;
 			children = (
 				96AB174024CA259B00AD9157 /* MainTabBar.storyboard */,
+				96ACE55424CC008E000F83CB /* ProfileView.storyboard */,
+				96ACE55224CC0025000F83CB /* OrderView.storyboard */,
+				96ACE55024CBFEF8000F83CB /* HomeView.storyboard */,
 				96632C5924B97F41003314CE /* LoginViews.storyboard */,
 				9614D2DA2474871B0090D9F4 /* Main.storyboard */,
 			);
@@ -236,9 +248,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96ACE55124CBFEF8000F83CB /* HomeView.storyboard in Resources */,
 				960D33F524B2856500F79966 /* Montserrat-Regular.ttf in Resources */,
 				C745876424CA5E8F0088F20F /* GoogleService-Info.plist in Resources */,
+				96ACE55324CC0025000F83CB /* OrderView.storyboard in Resources */,
 				96047ACA24CB7B950085202C /* GoogleService-Info.plist in Resources */,
+				96ACE55524CC008E000F83CB /* ProfileView.storyboard in Resources */,
 				9614D2E12474871C0090D9F4 /* LaunchScreen.storyboard in Resources */,
 				9614D2DE2474871C0090D9F4 /* Assets.xcassets in Resources */,
 				96AB174124CA259B00AD9157 /* MainTabBar.storyboard in Resources */,
@@ -308,6 +323,7 @@
 				9614D2D52474871B0090D9F4 /* AppDelegate.swift in Sources */,
 				9693F47E24C959C100A0DEAF /* NavigationController.swift in Sources */,
 				96632C5D24BC0A4F003314CE /* LocationService.swift in Sources */,
+				96ACE55724CC014A000F83CB /* HomeViewController.swift in Sources */,
 				9614D2D72474871B0090D9F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
