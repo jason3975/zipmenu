@@ -13,12 +13,12 @@ class HomeViewController: UIViewController {
     
     @IBOutlet weak var searchTextField: UITextField!
     
-    @IBOutlet weak var storeViewContainer: UIView!
+    @IBOutlet weak var storeViewTable: UITableView!
     
     override func viewDidLoad() {
         addLeftImage()
-        storeViewContainer.clipsToBounds = true
-        storeViewContainer.layer.cornerRadius = 30
+        storeViewTable.clipsToBounds = true
+        storeViewTable.layer.cornerRadius = 30
     }
     
     
