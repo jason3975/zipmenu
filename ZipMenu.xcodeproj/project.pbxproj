@@ -18,7 +18,6 @@
 		9614D2E12474871C0090D9F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9614D2DF2474871C0090D9F4 /* LaunchScreen.storyboard */; };
 		963493CF24B26F0E00C94ADB /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963493CE24B26F0E00C94ADB /* SignInViewController.swift */; };
 		9660369824CEAECA001A1F7B /* StoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660369624CEAECA001A1F7B /* StoreTableViewCell.swift */; };
-		9660369924CEAECA001A1F7B /* StoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9660369724CEAECA001A1F7B /* StoreTableViewCell.xib */; };
 		96632C5B24B97F41003314CE /* LoginViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96632C5924B97F41003314CE /* LoginViews.storyboard */; };
 		96632C5D24BC0A4F003314CE /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96632C5C24BC0A4F003314CE /* LocationService.swift */; };
 		9669A8A024B7B20B0075B492 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9669A89F24B7B20B0075B492 /* IQKeyboardManagerSwift */; };
@@ -32,6 +31,7 @@
 		96ACE55524CC008E000F83CB /* ProfileView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96ACE55424CC008E000F83CB /* ProfileView.storyboard */; };
 		96ACE55724CC014A000F83CB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACE55624CC014A000F83CB /* HomeViewController.swift */; };
 		96E3515E24B3101800CE47D9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E3515D24B3101800CE47D9 /* CustomButton.swift */; };
+		96FA2BCC24D280BD003EDDFF /* StoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA2BCB24D280BD003EDDFF /* StoreData.swift */; };
 		98F9CF8AAAF93D1A08B2D62F /* Pods_ZipMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D5D24F1933DF8D325774DF /* Pods_ZipMenu.framework */; };
 		C745876424CA5E8F0088F20F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C745876324CA5E8F0088F20F /* GoogleService-Info.plist */; };
 		C78FA75524C8F31D00F4F7F6 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78FA75424C8F31D00F4F7F6 /* test.swift */; };
@@ -53,7 +53,6 @@
 		9614D2E22474871C0090D9F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		963493CE24B26F0E00C94ADB /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		9660369624CEAECA001A1F7B /* StoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreTableViewCell.swift; sourceTree = "<group>"; };
-		9660369724CEAECA001A1F7B /* StoreTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StoreTableViewCell.xib; sourceTree = "<group>"; };
 		96632C5A24B97F41003314CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginViews.storyboard; sourceTree = "<group>"; };
 		96632C5C24BC0A4F003314CE /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		9669A8A124B7C8F70075B492 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +65,7 @@
 		96ACE55424CC008E000F83CB /* ProfileView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProfileView.storyboard; sourceTree = "<group>"; };
 		96ACE55624CC014A000F83CB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		96E3515D24B3101800CE47D9 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		96FA2BCB24D280BD003EDDFF /* StoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreData.swift; sourceTree = "<group>"; };
 		B3D5D24F1933DF8D325774DF /* Pods_ZipMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZipMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C745876324CA5E8F0088F20F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C78FA75424C8F31D00F4F7F6 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
@@ -134,6 +134,7 @@
 		9614D2D32474871B0090D9F4 /* Restaurant Application */ = {
 			isa = PBXGroup;
 			children = (
+				96FA2BCA24D2808B003EDDFF /* Models */,
 				9660369524CEAE82001A1F7B /* Custom Cells */,
 				96632C5824B97EFF003314CE /* StoryBoards */,
 				960D33CD24B2844A00F79966 /* Fonts */,
@@ -165,7 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				9660369624CEAECA001A1F7B /* StoreTableViewCell.swift */,
-				9660369724CEAECA001A1F7B /* StoreTableViewCell.xib */,
 			);
 			path = "Custom Cells";
 			sourceTree = "<group>";
@@ -193,6 +193,14 @@
 				C78FA75424C8F31D00F4F7F6 /* test.swift */,
 			);
 			path = "Custom Files";
+			sourceTree = "<group>";
+		};
+		96FA2BCA24D2808B003EDDFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				96FA2BCB24D280BD003EDDFF /* StoreData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,7 +280,6 @@
 				96632C5B24B97F41003314CE /* LoginViews.storyboard in Resources */,
 				9614D2DC2474871B0090D9F4 /* Main.storyboard in Resources */,
 				969A883424B5304400041CF5 /* Montserrat-SemiBold.ttf in Resources */,
-				9660369924CEAECA001A1F7B /* StoreTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +340,7 @@
 				9660369824CEAECA001A1F7B /* StoreTableViewCell.swift in Sources */,
 				96ABEFDC24B45A1400ECD9B6 /* Extension.swift in Sources */,
 				96E3515E24B3101800CE47D9 /* CustomButton.swift in Sources */,
+				96FA2BCC24D280BD003EDDFF /* StoreData.swift in Sources */,
 				96047ACC24CB7CF50085202C /* AlertPopup.swift in Sources */,
 				9614D2D52474871B0090D9F4 /* AppDelegate.swift in Sources */,
 				9693F47E24C959C100A0DEAF /* NavigationController.swift in Sources */,
