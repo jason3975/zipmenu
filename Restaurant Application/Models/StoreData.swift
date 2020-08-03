@@ -8,13 +8,18 @@
 
 import Foundation
 
-struct StoreData {
-    var name: String
-    var rating: Float
+public struct StoreData {
     
-    init(name: String, rating: Float)
+    var name: String
+    var description: String
+    var rating: Double
+    var id: String
+    
+    init (name: String, description: String, rating: Double, id: String)
     {
         self.name = name
+        self.description = description
         self.rating = rating
+        self.id = id
     }
 }

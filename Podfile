@@ -8,4 +8,7 @@ target 'ZipMenu' do
   # Pods for ZipMenu
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
+  pod 'Firebase/Database'
+  pod 'Firebase/Core'
+  pod 'FirebaseUI/Storage'
 end

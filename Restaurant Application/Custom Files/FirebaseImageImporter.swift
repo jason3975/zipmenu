@@ -6,8 +6,4 @@
 //  Copyright © 2020 Jason Jimenez. All rights reserved.
 //
 
-import Foundation
 
-// Hello
-
-//Hi

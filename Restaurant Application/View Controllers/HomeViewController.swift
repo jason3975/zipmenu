@@ -7,33 +7,104 @@
 //
 
 import UIKit
+
+import FirebaseFirestore
+import Firebase
+
 class HomeViewController: UIViewController {
     
     @IBOutlet weak var searchTextField: UITextField!
     @IBOutlet weak var storeViewTable: UITableView!
     var stores: [StoreData] = []
+    let db = Firestore.firestore()
+    
+    private var thoughtsCollectionRef: CollectionReference!
+    
     
     override func viewDidLoad() {
+        super.viewDidLoad()
         addLeftImage()
         storeViewTable.clipsToBounds = true
         storeViewTable.layer.cornerRadius = 30
         storeViewTable.delegate = self
         storeViewTable.dataSource = self
-        stores = createArray()
+        self.storeViewTable.reloadData()
+ 
     }
     
-    func createArray() -> [StoreData] {
-        var tempStores: [StoreData] = []
-        
-        let store1 = StoreData(name: "Joes Crab Shack", rating: 4.1)
-        let store2 = StoreData(name: "Osaka Japanese Steakhouse", rating: 4.5)
-        let store3 = StoreData(name: "Garcias Mexican Food", rating: 4.1)
-        tempStores.append(store1)
-        tempStores.append(store2)
-        tempStores.append(store3)
-        
-        return tempStores
+    override func viewWillAppear(_ animated: Bool) {
+        thoughtsCollectionRef = Firestore.firestore().collection("stores")
+        thoughtsCollectionRef.getDocuments { (snapshot, error) in
+            if let err = error {
+                debugPrint("ERROR FETCHING DOCS: \(err)")
+            }
+            else
+            {
+                guard let snap = snapshot else {return}
+                for document in snap.documents {
+                    let data = document.data()
+                    if let numOfStores = data["numOfStores"] as? Int //figuring out how many stores there are
+                    {
+                        for index in 1...numOfStores {
+                            
+                            if let storeId = data["store\(index)"] as? String
+                            {
+                                self.createStoreCell(storeId: storeId)
+                                
+                            }
+                            else
+                            {
+                                if let err = error
+                                {
+                                    debugPrint("Error fetching storeId: \(err)")
+                                }
+                            }
+                            
+                        }
+                    }
+                    else
+                    {
+                        if let err = error
+                        {
+                            debugPrint("Error fetching number of stores: \(err)")
+                        }
+                    }
+                }
+            }
+        }
     }
+    
+    
+    func createStoreCell(storeId: String)
+    {
+        thoughtsCollectionRef.document(storeId).getDocument { (snapshot, error) in
+            if let err = error {
+                debugPrint("ERROR FETCHING DOCS: \(err)")
+            }
+            else
+            {
+                guard let snap = snapshot else {return}
+                if let data = snap.data()
+                {
+                    let description = data["description"] as? String
+                    let name = data["name"] as? String
+                    let rating = data["rating"] as? Double
+                    let store = StoreData(name: name!, description: description!, rating: rating!, id: storeId)
+                    self.stores.append(store)
+                    self.storeViewTable.reloadData()
+                    
+                }
+                else
+                {
+                    if let err = error
+                    {
+                        debugPrint("ERROR FETCHING STORE DATA: \(err)")
+                    }
+                }
+            }
+        }
+    }
+    
     
     func addLeftImage()
     {
