@@ -15,6 +15,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XqE-jJ-GG7">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="X3o-HQ-LPQ" kind="relationship" relationship="rootViewController" id="D8I-4l-Mqh"/>
+                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FPv-J0-hKa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -80,6 +83,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l2I-rF-4i9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5557" y="-593"/>
+        </scene>
+        <!--ProfileView-->
+        <scene sceneID="4qF-nk-1By">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ProfileView" id="X3o-HQ-LPQ" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Bew-ON-b1f"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cXB-tC-tFH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5478" y="955"/>
         </scene>
     </scenes>
 </document>

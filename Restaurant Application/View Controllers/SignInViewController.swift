@@ -9,8 +9,6 @@
 import Foundation
 import UIKit
 import CoreLocation
-import FirebaseAuth
-
 class SignInViewController: UIViewController {
     
     
@@ -96,6 +94,7 @@ class SignInViewController: UIViewController {
         switch signInButton.currentTitle {
         case "Sign In":
             if let email = emailTextfield.text, let password = passwordTextfield.text {
+                /*
                 Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
                     if let e = error {
                         // TODO: Let user know there was a sign in error
@@ -106,7 +105,9 @@ class SignInViewController: UIViewController {
                         self.navigateToMainView()
                     }
                 }
+ */
             }
+ 
         case "Sign Up":
             if let email = emailTextfield.text,
                 let password = passwordTextfield.text,
@@ -114,6 +115,7 @@ class SignInViewController: UIViewController {
                 let lastName = lastNameTextfield.text,
                 let confirmPass = confirmPasswordTextfield.text {
                 if confirmPass == password {
+                    /*
                     Auth.auth().createUser(withEmail: email, password: password) { authResult, error in
                         if let e = error {
                             // TODO: Notify user account creation failed
@@ -125,11 +127,22 @@ class SignInViewController: UIViewController {
                             // TODO: Implement user accounts stored using
                             // a struct in Firestore to contain first/last/phone
                             self.navigateToMainView()
-                            print("Account created successfully")
+                            let user = Auth.auth().currentUser
+                            ]) { (err) in
+                                if let err = err
+                                {
+                                    AlertPopup.showBasicAlert(on: self, with: "Sign Up Error", message: err.localizedDescription)
+                                    debugPrint("Error signing up \(err)")
+                                }
+                                else
+                                {
+                                    print("Account created successfully")
+                                }
+                            }
                         }
+ */
                     }
                 }
-            }
         default:
             print("This shouldn't have happened")
         }

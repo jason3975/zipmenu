@@ -20,7 +20,7 @@
 		9660369824CEAECA001A1F7B /* StoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9660369624CEAECA001A1F7B /* StoreTableViewCell.swift */; };
 		96632C5B24B97F41003314CE /* LoginViews.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96632C5924B97F41003314CE /* LoginViews.storyboard */; };
 		96632C5D24BC0A4F003314CE /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96632C5C24BC0A4F003314CE /* LocationService.swift */; };
-		9669A8A024B7B20B0075B492 /* BuildFile in Frameworks */ = {isa = PBXBuildFile; productRef = 9669A89F24B7B20B0075B492 /* SwiftPackageProductDependency */; };
+		9669A8A024B7B20B0075B492 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9669A89F24B7B20B0075B492 /* IQKeyboardManagerSwift */; };
 		9669A8A224B7C8F70075B492 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9669A8A124B7C8F70075B492 /* ForgotPasswordViewController.swift */; };
 		9693F47E24C959C100A0DEAF /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9693F47D24C959C100A0DEAF /* NavigationController.swift */; };
 		969A883424B5304400041CF5 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 969A883324B5304400041CF5 /* Montserrat-SemiBold.ttf */; };
@@ -28,16 +28,14 @@
 		96ABEFDC24B45A1400ECD9B6 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ABEFDB24B45A1400ECD9B6 /* Extension.swift */; };
 		96ACE55124CBFEF8000F83CB /* HomeView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96ACE55024CBFEF8000F83CB /* HomeView.storyboard */; };
 		96ACE55724CC014A000F83CB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96ACE55624CC014A000F83CB /* HomeViewController.swift */; };
+		96CE349524D9417A0028291D /* CustomProfileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CE349424D9417A0028291D /* CustomProfileButton.swift */; };
 		96E3515E24B3101800CE47D9 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E3515D24B3101800CE47D9 /* CustomButton.swift */; };
+		96E4D5B124D8C60C001D2513 /* ProfileView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E4D5B024D8C60C001D2513 /* ProfileView.storyboard */; };
+		96E4D5B324D8C999001D2513 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E4D5B224D8C999001D2513 /* ProfileViewController.swift */; };
 		96FA2BCC24D280BD003EDDFF /* StoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96FA2BCB24D280BD003EDDFF /* StoreData.swift */; };
-		98F9CF8AAAF93D1A08B2D62F /* Pods_ZipMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D5D24F1933DF8D325774DF /* Pods_ZipMenu.framework */; };
-		C745876424CA5E8F0088F20F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C745876324CA5E8F0088F20F /* GoogleService-Info.plist */; };
-		C78FA75524C8F31D00F4F7F6 /* FirebaseImageImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78FA75424C8F31D00F4F7F6 /* FirebaseImageImporter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		44C491040E6369B712488A18 /* Pods-ZipMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZipMenu.release.xcconfig"; path = "Target Support Files/Pods-ZipMenu/Pods-ZipMenu.release.xcconfig"; sourceTree = "<group>"; };
-		96047AC924CB7B950085202C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		96047ACB24CB7CF50085202C /* AlertPopup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPopup.swift; sourceTree = "<group>"; };
 		9604FF5324C9F7AC0033314E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		960D33C924B2719A00F79966 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
@@ -60,12 +58,11 @@
 		96ABEFDB24B45A1400ECD9B6 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		96ACE55024CBFEF8000F83CB /* HomeView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeView.storyboard; sourceTree = "<group>"; };
 		96ACE55624CC014A000F83CB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		96CE349424D9417A0028291D /* CustomProfileButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomProfileButton.swift; sourceTree = "<group>"; };
 		96E3515D24B3101800CE47D9 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		96E4D5B024D8C60C001D2513 /* ProfileView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProfileView.storyboard; sourceTree = "<group>"; };
+		96E4D5B224D8C999001D2513 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		96FA2BCB24D280BD003EDDFF /* StoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreData.swift; sourceTree = "<group>"; };
-		B3D5D24F1933DF8D325774DF /* Pods_ZipMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZipMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C745876324CA5E8F0088F20F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		C78FA75424C8F31D00F4F7F6 /* FirebaseImageImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseImageImporter.swift; sourceTree = "<group>"; };
-		E1F7AAEF67CFF0355D8EDA98 /* Pods-ZipMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZipMenu.debug.xcconfig"; path = "Target Support Files/Pods-ZipMenu/Pods-ZipMenu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98F9CF8AAAF93D1A08B2D62F /* Pods_ZipMenu.framework in Frameworks */,
-				9669A8A024B7B20B0075B492 /* BuildFile in Frameworks */,
+				9669A8A024B7B20B0075B492 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,8 +80,6 @@
 		4FC9EACC3D41C290BB87BF69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C745876324CA5E8F0088F20F /* GoogleService-Info.plist */,
-				B3D5D24F1933DF8D325774DF /* Pods_ZipMenu.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -93,8 +87,6 @@
 		66C885335E75D9A32541FEFC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E1F7AAEF67CFF0355D8EDA98 /* Pods-ZipMenu.debug.xcconfig */,
-				44C491040E6369B712488A18 /* Pods-ZipMenu.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -111,7 +103,6 @@
 		9614D2C82474871B0090D9F4 = {
 			isa = PBXGroup;
 			children = (
-				96047AC924CB7B950085202C /* GoogleService-Info.plist */,
 				9614D2D32474871B0090D9F4 /* Restaurant Application */,
 				9614D2D22474871B0090D9F4 /* Products */,
 				66C885335E75D9A32541FEFC /* Pods */,
@@ -148,6 +139,7 @@
 		963493D024B26F1F00C94ADB /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				96E4D5B224D8C999001D2513 /* ProfileViewController.swift */,
 				96ACE55624CC014A000F83CB /* HomeViewController.swift */,
 				9604FF5324C9F7AC0033314E /* MainTabBarController.swift */,
 				963493CE24B26F0E00C94ADB /* SignInViewController.swift */,
@@ -170,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				96AB174024CA259B00AD9157 /* MainTabBar.storyboard */,
+				96E4D5B024D8C60C001D2513 /* ProfileView.storyboard */,
 				96ACE55024CBFEF8000F83CB /* HomeView.storyboard */,
 				96632C5924B97F41003314CE /* LoginViews.storyboard */,
 				9614D2DA2474871B0090D9F4 /* Main.storyboard */,
@@ -180,11 +173,11 @@
 		96E3515F24B315E600CE47D9 /* Custom Files */ = {
 			isa = PBXGroup;
 			children = (
+				96CE349424D9417A0028291D /* CustomProfileButton.swift */,
 				96047ACB24CB7CF50085202C /* AlertPopup.swift */,
 				96632C5C24BC0A4F003314CE /* LocationService.swift */,
 				96ABEFDB24B45A1400ECD9B6 /* Extension.swift */,
 				96E3515D24B3101800CE47D9 /* CustomButton.swift */,
-				C78FA75424C8F31D00F4F7F6 /* FirebaseImageImporter.swift */,
 			);
 			path = "Custom Files";
 			sourceTree = "<group>";
@@ -204,11 +197,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9614D2E52474871C0090D9F4 /* Build configuration list for PBXNativeTarget "ZipMenu" */;
 			buildPhases = (
-				57E1CDF626F448EB62BEB485 /* [CP] Check Pods Manifest.lock */,
 				9614D2CD2474871B0090D9F4 /* Sources */,
 				9614D2CE2474871B0090D9F4 /* Frameworks */,
 				9614D2CF2474871B0090D9F4 /* Resources */,
-				63C44FEB24E1A7A60C3E4236 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,7 +207,7 @@
 			);
 			name = ZipMenu;
 			packageProductDependencies = (
-				9669A89F24B7B20B0075B492 /* SwiftPackageProductDependency */,
+				9669A89F24B7B20B0075B492 /* IQKeyboardManagerSwift */,
 			);
 			productName = "Restaurant Application";
 			productReference = 9614D2D12474871B0090D9F4 /* ZipMenu.app */;
@@ -229,7 +220,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Jason Jimenez";
 				TargetAttributes = {
 					9614D2D02474871B0090D9F4 = {
@@ -247,7 +238,7 @@
 			);
 			mainGroup = 9614D2C82474871B0090D9F4;
 			packageReferences = (
-				9669A89E24B7B20B0075B492 /* RemoteSwiftPackageReference */,
+				9669A89E24B7B20B0075B492 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = 9614D2D22474871B0090D9F4 /* Products */;
 			projectDirPath = "";
@@ -265,59 +256,17 @@
 			files = (
 				96ACE55124CBFEF8000F83CB /* HomeView.storyboard in Resources */,
 				960D33F524B2856500F79966 /* Montserrat-Regular.ttf in Resources */,
-				C745876424CA5E8F0088F20F /* GoogleService-Info.plist in Resources */,
 				9614D2E12474871C0090D9F4 /* LaunchScreen.storyboard in Resources */,
 				9614D2DE2474871C0090D9F4 /* Assets.xcassets in Resources */,
 				96AB174124CA259B00AD9157 /* MainTabBar.storyboard in Resources */,
 				96632C5B24B97F41003314CE /* LoginViews.storyboard in Resources */,
 				9614D2DC2474871B0090D9F4 /* Main.storyboard in Resources */,
 				969A883424B5304400041CF5 /* Montserrat-SemiBold.ttf in Resources */,
+				96E4D5B124D8C60C001D2513 /* ProfileView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		57E1CDF626F448EB62BEB485 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ZipMenu-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		63C44FEB24E1A7A60C3E4236 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZipMenu/Pods-ZipMenu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZipMenu/Pods-ZipMenu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZipMenu/Pods-ZipMenu-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9614D2CD2474871B0090D9F4 /* Sources */ = {
@@ -328,11 +277,12 @@
 				960D33CA24B2719A00F79966 /* LocationViewController.swift in Sources */,
 				9604FF5424C9F7AC0033314E /* MainTabBarController.swift in Sources */,
 				963493CF24B26F0E00C94ADB /* SignInViewController.swift in Sources */,
-				C78FA75524C8F31D00F4F7F6 /* FirebaseImageImporter.swift in Sources */,
 				9660369824CEAECA001A1F7B /* StoreTableViewCell.swift in Sources */,
+				96E4D5B324D8C999001D2513 /* ProfileViewController.swift in Sources */,
 				96ABEFDC24B45A1400ECD9B6 /* Extension.swift in Sources */,
 				96E3515E24B3101800CE47D9 /* CustomButton.swift in Sources */,
 				96FA2BCC24D280BD003EDDFF /* StoreData.swift in Sources */,
+				96CE349524D9417A0028291D /* CustomProfileButton.swift in Sources */,
 				96047ACC24CB7CF50085202C /* AlertPopup.swift in Sources */,
 				9614D2D52474871B0090D9F4 /* AppDelegate.swift in Sources */,
 				9693F47E24C959C100A0DEAF /* NavigationController.swift in Sources */,
@@ -398,6 +348,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -458,6 +409,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -488,7 +440,6 @@
 		};
 		9614D2E62474871C0090D9F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1F7AAEF67CFF0355D8EDA98 /* Pods-ZipMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -507,7 +458,6 @@
 		};
 		9614D2E72474871C0090D9F4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44C491040E6369B712488A18 /* Pods-ZipMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,7 +498,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9669A89E24B7B20B0075B492 /* RemoteSwiftPackageReference */ = {
+		9669A89E24B7B20B0075B492 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
 			requirement = {
@@ -559,9 +509,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9669A89F24B7B20B0075B492 /* SwiftPackageProductDependency */ = {
+		9669A89F24B7B20B0075B492 /* IQKeyboardManagerSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9669A89E24B7B20B0075B492 /* RemoteSwiftPackageReference */;
+			package = 9669A89E24B7B20B0075B492 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
 			productName = IQKeyboardManagerSwift;
 		};
 /* End XCSwiftPackageProductDependency section */

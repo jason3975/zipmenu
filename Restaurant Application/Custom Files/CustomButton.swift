@@ -23,7 +23,6 @@ class CustomButton: UIButton {
     
     
     func setUpButton() {
-        //setShadow()
         setTitleColor(.white, for: .normal)
         backgroundColor = #colorLiteral(red: 0.1193573102, green: 0.547753036, blue: 0.8086502552, alpha: 1)
         titleLabel?.font = UIFont(name: "Montserrat-Regular", size: 18)
@@ -32,15 +31,6 @@ class CustomButton: UIButton {
         layer.borderColor = UIColor.clear.cgColor
     }
     
-    
-    private func setShadow() {
-        layer.shadowColor = UIColor.black.cgColor
-        layer.shadowOffset = CGSize(width: 0.0, height: 6.0)
-        layer.shadowRadius = 8
-        layer.shadowOpacity = 0.5
-        clipsToBounds = true
-        layer.masksToBounds = false
-    }
     func shake() {
         let shake = CABasicAnimation(keyPath: "position")
         shake.duration = 0.1
