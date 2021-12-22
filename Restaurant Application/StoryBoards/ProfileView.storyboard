@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DPn-NU-XC3">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Profile View Controller-->
+        <scene sceneID="YWc-Gn-mF2">
+            <objects>
+                <viewController id="DPn-NU-XC3" customClass="ProfileViewController" customModule="ZipMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gjZ-0Y-3hs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zaq-uS-coj">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="290"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="email@email.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rk-zf-S8f">
+                                        <rect key="frame" x="127.5" y="237.5" width="159.5" height="22.5"/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3UR-Nb-UXN">
+                                        <rect key="frame" x="154.5" y="195" width="105" height="22.5"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ProfileSettings" translatesAutoresizingMaskIntoConstraints="NO" id="9um-G6-mCM">
+                                        <rect key="frame" x="100" y="60" width="214" height="105"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.62745098040000002" blue="0.1647058824" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="3UR-Nb-UXN" firstAttribute="centerX" secondItem="zaq-uS-coj" secondAttribute="centerX" id="0O7-Df-WXg"/>
+                                    <constraint firstItem="3UR-Nb-UXN" firstAttribute="top" secondItem="9um-G6-mCM" secondAttribute="bottom" constant="30" id="KD1-nf-KqT"/>
+                                    <constraint firstItem="9um-G6-mCM" firstAttribute="leading" secondItem="zaq-uS-coj" secondAttribute="leading" constant="100" id="bOM-UK-hVa"/>
+                                    <constraint firstAttribute="trailing" secondItem="9um-G6-mCM" secondAttribute="trailing" constant="100" id="bj3-c5-P9I"/>
+                                    <constraint firstAttribute="bottom" secondItem="9um-G6-mCM" secondAttribute="bottom" constant="125" id="eTJ-eu-Qts"/>
+                                    <constraint firstItem="6rk-zf-S8f" firstAttribute="top" secondItem="3UR-Nb-UXN" secondAttribute="bottom" constant="20" id="ihu-D1-DSe"/>
+                                    <constraint firstItem="9um-G6-mCM" firstAttribute="top" secondItem="zaq-uS-coj" secondAttribute="top" constant="60" id="jCf-nK-d2S"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="6rk-zf-S8f" secondAttribute="bottom" constant="20" id="u3V-dy-HxN"/>
+                                    <constraint firstItem="6rk-zf-S8f" firstAttribute="centerX" secondItem="zaq-uS-coj" secondAttribute="centerX" id="yJM-Qu-ixa"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="iZA-AR-Bd6">
+                                <rect key="frame" x="40" y="330" width="334" height="453"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Pe2-F1-zJa">
+                                        <rect key="frame" x="0.0" y="0.0" width="334" height="130"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIY-aJ-SGI" customClass="CustomProfileButton" customModule="ZipMenu" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="130" id="86H-cM-az2"/>
+                                                    <constraint firstAttribute="height" constant="130" id="xYm-QH-bsH"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="ArialHebrew-Light" family="Arial Hebrew" pointSize="17"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="titleEdgeInsets" minX="-35" minY="85" maxX="25" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="35" minY="25" maxX="35" maxY="45"/>
+                                                <state key="normal" title="Orders" image="OrdersProfileIcon">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="buttonPressed:" destination="DPn-NU-XC3" eventType="touchUpInside" id="UiQ-Yv-hzj"/>
+                                                    <action selector="buttonTouchedDown:" destination="DPn-NU-XC3" eventType="touchDown" id="l7j-WI-E5H"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGy-4h-1Rq" customClass="CustomProfileButton" customModule="ZipMenu" customModuleProvider="target">
+                                                <rect key="frame" x="204" y="0.0" width="130" height="130"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="130" id="1N1-sN-Spu"/>
+                                                    <constraint firstAttribute="width" constant="130" id="zzi-Ph-T8M"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="ArialHebrew-Light" family="Arial Hebrew" pointSize="17"/>
+                                                <inset key="titleEdgeInsets" minX="-35" minY="85" maxX="25" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="30" minY="20" maxX="30" maxY="35"/>
+                                                <state key="normal" title="Payment" image="CreditCardIcon">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="agA-LB-tP8">
+                                        <rect key="frame" x="0.0" y="161.5" width="334" height="130"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lpP-uI-yMG">
+                                                <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="130" id="cMh-fq-0S5"/>
+                                                    <constraint firstAttribute="height" constant="130" id="rFt-Sp-fEA"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CU6-wx-Zrf">
+                                                <rect key="frame" x="204" y="0.0" width="130" height="130"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="130" id="LnS-bP-ruo"/>
+                                                    <constraint firstAttribute="height" constant="130" id="dB9-GK-PBp"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="N2d-Mg-UKF">
+                                        <rect key="frame" x="0.0" y="323" width="334" height="130"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rYV-uN-o4s">
+                                                <rect key="frame" x="0.0" y="0.0" width="130" height="130"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="130" id="Inu-Lk-Zev"/>
+                                                    <constraint firstAttribute="height" constant="130" id="TS2-c0-vu9"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UWZ-Pe-YTF">
+                                                <rect key="frame" x="204" y="0.0" width="130" height="130"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="130" id="r4j-D8-b4g"/>
+                                                    <constraint firstAttribute="width" constant="130" id="wcq-Ly-Y1h"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.95294117647058818" green="0.95294117647058818" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iZA-AR-Bd6" firstAttribute="leading" secondItem="kZK-lq-cXx" secondAttribute="leading" constant="40" id="6mw-QL-nh4"/>
+                            <constraint firstItem="iZA-AR-Bd6" firstAttribute="top" secondItem="zaq-uS-coj" secondAttribute="bottom" constant="40" id="O5K-8E-xrS"/>
+                            <constraint firstItem="kZK-lq-cXx" firstAttribute="bottom" secondItem="iZA-AR-Bd6" secondAttribute="bottom" constant="30" id="T3Q-jf-C79"/>
+                            <constraint firstItem="kZK-lq-cXx" firstAttribute="trailing" secondItem="iZA-AR-Bd6" secondAttribute="trailing" constant="40" id="ejl-6h-3q3"/>
+                            <constraint firstItem="kZK-lq-cXx" firstAttribute="bottom" secondItem="zaq-uS-coj" secondAttribute="bottom" constant="523" id="lzc-3e-NBY"/>
+                            <constraint firstItem="kZK-lq-cXx" firstAttribute="trailing" secondItem="zaq-uS-coj" secondAttribute="trailing" id="nN6-XH-LRt"/>
+                            <constraint firstItem="zaq-uS-coj" firstAttribute="leading" secondItem="kZK-lq-cXx" secondAttribute="leading" id="vjj-mf-5ME"/>
+                            <constraint firstItem="zaq-uS-coj" firstAttribute="top" secondItem="gjZ-0Y-3hs" secondAttribute="top" id="w16-mw-yxM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="kZK-lq-cXx"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Cp8-Kg-A7v"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="orangeView" destination="zaq-uS-coj" id="UtU-Sq-AjM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hAU-1w-g9e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5478" y="955"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CreditCardIcon" width="500" height="500"/>
+        <image name="OrdersProfileIcon" width="500" height="500"/>
+        <image name="ProfileSettings" width="500" height="500"/>
+    </resources>
+</document>
